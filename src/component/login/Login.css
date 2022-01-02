@@ -1,0 +1,57 @@
+.leftside,
+.rightside {
+	height: 50vh;
+	width: 100%;
+}
+
+@media screen and (min-width:768px) {
+	.leftside {
+		margin-top: 200px;
+	}
+}
+
+.form-container {
+	max-width: 550px;
+	margin: auto;
+}
+
+.login-box {
+	margin-top: 250px;
+	padding: 50px;
+}
+
+@media screen and (max-width:767px) {
+	.login-box {
+		margin-top: 10px;
+	}
+}
+
+input[type="email"] {
+	height: 80px;
+}
+
+input[type="password"] {
+	height: 80px;
+}
+
+.social-container {
+	margin: 20px 0;
+}
+
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 60px;
+	width: 60px;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
